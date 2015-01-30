@@ -89,7 +89,7 @@ class logstashforwarder::params {
   # Different path definitions
   case $::kernel {
     'Linux': {
-      $configdir = '/etc/logstashforwarder'
+      $configdir = '/etc/logstash-forwarder'
       $package_dir = '/opt/logstash-forwarder/swdl'
       $installpath = '/opt/logstash-forwarder'
     }
